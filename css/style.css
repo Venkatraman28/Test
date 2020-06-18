@@ -1,0 +1,171 @@
+body{
+  font:15px/1.5 Arial,Helvetica;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+/* global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+header{
+  background: #35424a;
+  color:#ffffff;
+  padding-top: 30px;
+  min-height:70px;
+  border-bottom: #68491d 3px solid;
+}
+
+header a{
+  text-decoration: none;
+  color:white;
+  font:16px;
+}
+
+header ul{
+  padding:0;
+  margin:0;
+}
+
+header li{
+  display:inline;
+  float:left;
+  padding:0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color:#ccc;
+  font-weight: bold;
+}
+
+#showcase{
+  min-height:400px;
+  background-image:url('../images/showcase.jpg') ;
+  text-align: center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  font-size: 55px;
+  margin-top:100px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+#newsletter {
+  padding:15px;
+  background: #34424a;
+  color:#ffffff;
+}
+
+#newsletter h1{
+  float:left;
+}
+#newsletter form{
+  float:right;
+  padding-top:15px;
+}
+
+#newsletter input[type="email"]{
+  width:250px;
+  height:28px;
+  padding: 5px;
+}
+
+#newsletter button{
+  color:#fff;
+  background:coral;
+  height:30px;
+  border:2px solid coral;
+}
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  width:30%;
+  text-align: center;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+#main aside{
+  float:right;
+  margin-top:15px;
+  width:30%;
+  color:#ffffff;
+  background:black;
+}
+
+#main article{
+  float:left;
+  width:70%;
+  margin-top:15px;
+}
+
+aside .important{
+  color:#ffffff;
+  float:left;
+  width:70%;
+}
+
+#service{
+  background: white;
+  padding-right:10px;
+  float:left;
+  width:90%;
+}
+
+ #register{
+   margin-left: 30px;
+  background: white;
+  width:90%;
+  color:white;
+  background: grey;
+}
+
+#register button{
+  color:white;
+  background: coral;
+}
+
+
+footer{
+  color:#ffffff;
+  background: #e8491d;
+  margin-top:20px;
+  padding:20px;
+  text-align: center;
+}
